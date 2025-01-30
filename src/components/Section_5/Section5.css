@@ -107,6 +107,12 @@
         font-size: 22px;
     }
 
+    label {
+        font-weight: 400;
+        font-size: 12px;
+        margin-bottom: 5px;
+      }
+
     input {
         padding: 10px;
         font-size: 14px;
@@ -114,7 +120,7 @@
 
     .submit_btn {
         padding: 10px;
-        font-size: 14px;
+        font-size: 12px;
     }
 }
 
@@ -130,8 +136,14 @@
 
     input {
         padding: 8px;
-        font-size: 14px;
+        font-size: 12px;
     }
+
+    label {
+        font-weight: 400;
+        font-size: 12px;
+        margin-bottom: 5px;
+      }
 
     .submit_btn {
         padding: 10px;

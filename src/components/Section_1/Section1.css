@@ -7,7 +7,6 @@
   
   .navbar {
     background-color: white;
-    padding: 20px 0;
     height: 9vh;
     width: 100%;
     display: flex;
@@ -117,7 +116,7 @@
 
   @media (max-width: 1024px) {
     .section1 {
-      padding: 0 30px;
+      padding: 0 20px;
     }
   
     .left h1 {
@@ -170,7 +169,10 @@
     }
   
     .login-btn {
-      width: 50%;
+      width: 30%;
+      height: 20px;
+    width: 70px;
+      font-size:12px ;
       margin-top: 10px;
     }
   
@@ -178,13 +180,15 @@
       flex-direction: column;
       height: auto;
       text-align: center;
-      margin-top: 20px;
+      margin-top: 50px;
+      text-align: left;
     }
   
     .left, .right {
       width: 100%;
       align-items: center;
-      text-align: center;
+      text-align: left;
+      margin-bottom: 1rem;
     }
   
     .left h1, .left h3 {

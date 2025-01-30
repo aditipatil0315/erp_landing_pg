@@ -27,7 +27,8 @@
     flex-wrap: wrap;
 }
 
-/* Responsive Design */
+
+
 @media (max-width: 1024px) {
     .section2 {
         padding: 20px 30px;
@@ -59,9 +60,6 @@
 }
 
 @media (max-width: 480px) {
-    .section2 {
-        padding: 10px;
-    }
 
     .card_container h1 {
         font-size: 20px;
