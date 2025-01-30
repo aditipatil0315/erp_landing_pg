@@ -1,0 +1,109 @@
+
+
+.section1 {
+    /* background-color: yellow; */
+    font-family: Montserrat;
+    height: 100vh;
+    width: 100%;
+    padding: 0 50px;
+}
+
+.navbar {
+    background-color: white;
+    padding: 50px 0;
+    height: 9vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-weight: 500;
+    font-size:larger;
+}
+
+.links {
+    display: flex;
+    gap: 32px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+    font-weight: 500;
+
+}
+
+button {
+    height: 40px;
+    width: 100px;
+    background-color: black;
+    color: white;
+    font-size: 14px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+    font-family: Montserrat;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+}
+
+.explore_btn {
+    height: 40px;
+    width: 150px;
+    margin-top: 1rem;
+}
+
+.content_section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    width: 100%;
+
+}
+
+.left {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    gap: 12px;
+
+}
+
+ h3, p {
+    width: 80%;
+    font-weight:500;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 600;
+    width: 80%;
+    line-height: 1;
+
+}
+
+
+.right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+
+.right img {
+    
+    width: 90%;
+}
+
+@media (max-width: 768px) { 
+    
+ }

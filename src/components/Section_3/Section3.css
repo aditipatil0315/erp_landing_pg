@@ -1,0 +1,49 @@
+
+
+.section3 {
+    background-color: yellow;
+    font-family: Montserrat;
+    height: 70vh;
+    width: 100%;
+    padding: 0 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.sec3_left {
+    background-color: red;
+    height: 100%;
+    width: 50%;
+
+}
+
+.upper {
+    height: 40%;
+    width: 100%;
+    background-color: #fff;
+
+
+}
+
+.lower {
+    height: 60%;
+    width: 100%;
+    background-color: greenyellow;
+
+}
+
+
+.sec3_right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+}
+
+.sec3_right img {
+    width: 60%;
+}
