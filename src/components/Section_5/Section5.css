@@ -95,7 +95,7 @@
 /* 🔹 Mobile (Small Screens) */
 @media (max-width: 768px) {
     .section5 {
-        padding: 30px 20px;
+        /* padding: 0px 20px; */
     }
 
     .image-section img {
@@ -126,9 +126,6 @@
 
 /* 🔹 Extra Small Mobile (Very Small Screens) */
 @media (max-width: 480px) {
-    .section5 {
-        padding: 20px;
-    }
 
     h2 {
         font-size: 20px;

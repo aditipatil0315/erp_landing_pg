@@ -27,7 +27,6 @@ span {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* gap: 20px; */
 
 }
 
@@ -61,7 +60,8 @@ span {
     }
 
     .sec4_lower {
-        flex-direction: column;
+        padding-top: 30px;
+        align-items: start;
     }
 
     .sec4_lower img {
