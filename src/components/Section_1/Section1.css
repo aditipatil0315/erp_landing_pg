@@ -5,7 +5,6 @@
     padding: 0 50px;
   }
   
-  /* Navbar */
   .navbar {
     background-color: white;
     padding: 20px 0;
@@ -22,9 +21,10 @@
     font-size: larger;
   }
   
-  /* Navbar Links */
   .links {
     display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 32px;
   }
   
@@ -113,7 +113,10 @@
     max-width: 500px;
   }
   
-  /* Responsive Design */
+
+
+
+
   @media (max-width: 1024px) {
     .section1 {
       padding: 0 30px;
@@ -134,7 +137,6 @@
     }
   }
   
-  /* Mobile Navbar */
   @media (max-width: 768px) {
     .navbar {
       flex-direction: row;
@@ -142,12 +144,10 @@
       align-items: center;
     }
   
-    /* Show Hamburger Menu */
     .hamburger {
       display: block;
     }
   
-    /* Hide Links by Default */
     .links {
       display: none;
       position: absolute;
@@ -176,7 +176,6 @@
       margin-top: 10px;
     }
   
-    /* Responsive Content Section */
     .content_section {
       flex-direction: column;
       height: auto;

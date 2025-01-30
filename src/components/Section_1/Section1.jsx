@@ -12,7 +12,6 @@ const Section1 = () => {
           logo <br />text
         </div>
 
-        {/* Hamburger Icon */}
         <div className="hamburger" onClick={() => setMenuOpen(!menuOpen)}>
           ☰
         </div>
@@ -22,8 +21,8 @@ const Section1 = () => {
           <a href="#">About</a>
           <a href="#">Products</a>
           <a href="#">Contact</a>
-          <button className="login-btn">Login</button>
         </div>
+          <button className="login-btn">Login</button>
       </div>
 
       <div className="content_section">
