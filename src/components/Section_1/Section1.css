@@ -50,14 +50,12 @@
     letter-spacing: 0.5px;
   }
   
-  /* Hamburger Icon */
   .hamburger {
     display: none;
     font-size: 30px;
     cursor: pointer;
   }
   
-  /* Content Section */
   .content_section {
     display: flex;
     justify-content: center;
@@ -172,7 +170,7 @@
     }
   
     .login-btn {
-      width: 100%;
+      width: 50%;
       margin-top: 10px;
     }
   
