@@ -1,42 +1,41 @@
-
-
 .section1 {
-    /* background-color: yellow; */
-    font-family: Montserrat;
+    font-family: Montserrat, sans-serif;
     height: 100vh;
     width: 100%;
     padding: 0 50px;
-}
-
-.navbar {
+  }
+  
+  /* Navbar */
+  .navbar {
     background-color: white;
-    padding: 50px 0;
+    padding: 20px 0;
     height: 9vh;
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-.logo {
+    position: relative;
+  }
+  
+  .logo {
     font-weight: 500;
-    font-size:larger;
-}
-
-.links {
+    font-size: larger;
+  }
+  
+  /* Navbar Links */
+  .links {
     display: flex;
     gap: 32px;
-}
-
-a{
+  }
+  
+  .links a {
     text-decoration: none;
     font-size: 16px;
     color: black;
     font-weight: 500;
-
-}
-
-button {
+  }
+  
+  .login-btn {
     height: 40px;
     width: 100px;
     background-color: black;
@@ -49,24 +48,25 @@ button {
     font-family: Montserrat;
     font-weight: 300;
     letter-spacing: 0.5px;
-}
-
-.explore_btn {
-    height: 40px;
-    width: 150px;
-    margin-top: 1rem;
-}
-
-.content_section {
+  }
+  
+  /* Hamburger Icon */
+  .hamburger {
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
+  }
+  
+  /* Content Section */
+  .content_section {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 80vh;
     width: 100%;
-
-}
-
-.left {
+  }
+  
+  .left {
     display: flex;
     justify-content: center;
     align-items: start;
@@ -74,36 +74,156 @@ button {
     width: 50%;
     height: 100%;
     gap: 12px;
-
-}
-
- h3, p {
-    width: 80%;
-    font-weight:500;
-}
-
-h1 {
+  }
+  
+  .left h1 {
     font-size: 40px;
     font-weight: 600;
     width: 80%;
-    line-height: 1;
-
-}
-
-
-.right {
+    line-height: 1.2;
+  }
+  
+  .left h3 {
+    width: 80%;
+    font-weight: 500;
+  }
+  
+  .explore_btn {
+    height: 40px;
+    width: 150px;
+    margin-top: 1rem;
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .right {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 50%;
     height: 100%;
-}
-
-.right img {
-    
+  }
+  
+  .right img {
     width: 90%;
-}
-
-@media (max-width: 768px) { 
-    
- }
+    max-width: 500px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 1024px) {
+    .section1 {
+      padding: 0 30px;
+    }
+  
+    .left h1 {
+      font-size: 32px;
+    }
+  
+    .left h3 {
+      font-size: 16px;
+    }
+  
+    .explore_btn {
+      width: 140px;
+      height: 38px;
+      font-size: 14px;
+    }
+  }
+  
+  /* Mobile Navbar */
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
+  
+    /* Show Hamburger Menu */
+    .hamburger {
+      display: block;
+    }
+  
+    /* Hide Links by Default */
+    .links {
+      display: none;
+      position: absolute;
+      top: 70px;
+      right: 20px;
+      flex-direction: column;
+      background-color: white;
+      width: 200px;
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    }
+  
+    .links.open {
+      display: flex;
+    }
+  
+    .links a {
+      padding: 10px 0;
+      text-align: center;
+      font-size: 16px;
+    }
+  
+    .login-btn {
+      width: 100%;
+      margin-top: 10px;
+    }
+  
+    /* Responsive Content Section */
+    .content_section {
+      flex-direction: column;
+      height: auto;
+      text-align: center;
+      margin-top: 20px;
+    }
+  
+    .left, .right {
+      width: 100%;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .left h1, .left h3 {
+      width: 90%;
+    }
+  
+    .explore_btn {
+      margin-top: 20px;
+    }
+  
+    .right img {
+      width: 80%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .section1 {
+      padding: 0 20px;
+    }
+  
+    .left h1 {
+      font-size: 24px;
+    }
+  
+    .left h3 {
+      font-size: 14px;
+    }
+  
+    .explore_btn {
+      width: 120px;
+      height: 36px;
+      font-size: 14px;
+    }
+  
+    .right img {
+      width: 100%;
+    }
+  }
+  

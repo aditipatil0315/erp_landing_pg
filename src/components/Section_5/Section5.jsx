@@ -4,7 +4,7 @@ import contact_img from '../../assets/contact.jpg'
 
 const ContactPage = () => {
   return (
-    <div className="container">
+    <div className="section5">
       <div className="image-section">
         <img src= {contact_img} alt="Contact Us" />
       </div>

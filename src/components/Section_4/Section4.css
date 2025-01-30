@@ -36,3 +36,52 @@ span {
     height: 100%;
    
 }
+
+@media (max-width: 1024px) {
+    .section4 {
+        padding: 20px 30px;
+    }
+
+    .sec4_upper h1 {
+        font-size: 24px;
+    }
+
+    .sec4_lower img {
+        width: 60%;
+    }
+}
+
+@media (max-width: 768px) {
+    .section4 {
+        padding: 15px 20px;
+    }
+
+    .sec4_upper h1 {
+        font-size: 22px;
+    }
+
+    .sec4_lower {
+        flex-direction: column;
+    }
+
+    .sec4_lower img {
+        width: 80%;
+    }
+}
+
+@media (max-width: 480px) {
+    .section4 {
+        padding: 10px;
+    }
+
+    .sec4_upper h1 {
+        font-size: 18px;
+        margin-top:3rem;
+        text-align: center;
+    }
+
+    .sec4_lower img {
+        width: 90%;
+        height: 50%;
+    }
+}
