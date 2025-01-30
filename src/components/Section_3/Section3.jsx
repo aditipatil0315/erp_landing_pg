@@ -7,12 +7,12 @@ const Section3 = () => {
     <div className=' section3'>
         <div className="sec3_left">
             <div className="upper">
-                <h1>About <br /> Us</h1>
+                <h1>About Us</h1>
 
             </div>
 
             <div className="lower">
-                <h1>Hospital Management Software for Enhanced Healthcare Efficiency</h1>
+                <h2>Hospital Management Software for Enhanced Healthcare Efficiency</h2>
                 <h3>Our comprehensive hospital management software helps you manage patient records, optimize workflows, and improve overall service delivery. Designed for hospitals of all sizes, our system ensures a seamless experience for both patients and healthcare providers.</h3>
 
             </div>
