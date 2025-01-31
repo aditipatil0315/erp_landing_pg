@@ -40,6 +40,10 @@
 
 }
 
+.lower h3 {
+    font-weight: 400;
+}
+
 
 .sec3_right {
     display: flex;

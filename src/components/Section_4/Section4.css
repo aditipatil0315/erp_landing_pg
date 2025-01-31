@@ -60,12 +60,13 @@ span {
     }
 
     .sec4_lower {
-        padding-top: 30px;
+        padding-top: 120px;
         align-items: start;
     }
 
     .sec4_lower img {
-        width: 80%;
+        width: 90%;
+        height: 100%;
     }
 }
 
@@ -79,6 +80,6 @@ span {
 
     .sec4_lower img {
         width: 90%;
-        height: 50%;
+        height: 70%;
     }
 }

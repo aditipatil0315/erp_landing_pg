@@ -12,8 +12,8 @@ const Section3 = () => {
             </div>
 
             <div className="lower">
-                <h2>Hospital Management Software for Enhanced Healthcare Efficiency</h2>
-                <h3>Our comprehensive hospital management software helps you manage patient records, optimize workflows, and improve overall service delivery. Designed for hospitals of all sizes, our system ensures a seamless experience for both patients and healthcare providers.</h3>
+                <h2>We don’t just build software—we create systems that work for you.</h2>
+                <h3>From defining key success metrics and streamlining workflows to building a strong, scalable foundation, we ensure smooth operations. Our solutions are tailored to your business needs, providing tools that solve real challenges and drive growth.</h3>
 
             </div>
 

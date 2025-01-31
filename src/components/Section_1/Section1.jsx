@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './Section1.css';
-import img_2 from '../../assets/img_2.png';
+import img_2 from '../../assets/design_img.png';
 
 const Section1 = () => {
   const [menuOpen, setMenuOpen] = useState(false);
