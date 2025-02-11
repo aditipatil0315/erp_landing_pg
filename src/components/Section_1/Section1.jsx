@@ -22,7 +22,6 @@ const Section1 = () => {
           <a href="#">Products</a>
           <a href="#">Contact</a>
         </div>
-          <button className="login-btn">Login</button>
       </div>
 
       <div className="content_section">

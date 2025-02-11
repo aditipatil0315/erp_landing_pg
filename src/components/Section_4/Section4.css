@@ -1,39 +1,75 @@
-
-
 .section4 {
     font-family: Montserrat;
-    height: 90vh;
+    min-height: auto;
+    margin-bottom: 5rem;
     width: 100%;
     padding: 20px 50px;
     display: flex;
     flex-direction: column;
-  
 }
 
 .sec4_upper {
     width: 100%;
-    height: 30%;
+    height: 50%;
+}
 
-    
+.sec4_upper h2 {
+    font-size: 24px;
+    font-weight: 500;
 }
 
 span {
     color: #5BE4A9;
 }
 
-.sec4_lower {
+.sec4_bottom {
+    margin-top: 3rem;
     width: 100%;
     height: 70%;
     display: flex;
-    justify-content: center;
-    align-items: center;
+}
+
+.left_one {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-top: 2rem;
 
 }
 
-.sec4_lower img {
+.left_one h2 {
+    font-size: 28px;
+}
+
+.left_one p {
+    font-size: 18px;
+    color: #666;
+}
+
+.right_one {
     width: 50%;
-    height: 100%;
-   
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    padding: 20px;
+}
+
+
+
+.right_one ol {
+    font-size: 21px;
+}
+
+.right_one h2 {
+    font-size: 28px;
+    margin-top: 2rem;
+
+}
+
+.right_one li {
+    margin-bottom: 10px;
 }
 
 @media (max-width: 1024px) {
@@ -45,13 +81,19 @@ span {
         font-size: 24px;
     }
 
-    .sec4_lower img {
-        width: 60%;
+    .left_one h2 {
+        font-size: 24px;
+    }
+
+    .left_one p, .right_one ol {
+        font-size: 16px;
     }
 }
 
 @media (max-width: 768px) {
     .section4 {
+        margin-bottom: 3rem;
+
         padding: 15px 20px;
     }
 
@@ -59,27 +101,37 @@ span {
         font-size: 22px;
     }
 
-    .sec4_lower {
-        padding-top: 120px;
-        align-items: start;
+    .sec4_bottom {
+        flex-direction: column;
+        height: auto;
     }
 
-    .sec4_lower img {
-        width: 90%;
-        height: 100%;
+    .left_one, .right_one {
+        width: 100%;
+        text-align: center;
+    }
+
+    .right_one ol {
+        padding-left: 0;
     }
 }
 
 @media (max-width: 480px) {
-
     .sec4_upper h1 {
         font-size: 18px;
-        margin-top:3rem;
+        margin-top: 3rem;
         text-align: center;
     }
 
-    .sec4_lower img {
-        width: 90%;
-        height: 70%;
+    .left_one h2 {
+        font-size: 22px;
+    }
+
+    .left_one p {
+        font-size: 16px;
+    }
+
+    .right_one ol {
+        font-size: 16px;
     }
 }

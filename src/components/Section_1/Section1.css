@@ -34,20 +34,7 @@
     font-weight: 500;
   }
   
-  .login-btn {
-    height: 40px;
-    width: 100px;
-    background-color: black;
-    color: white;
-    font-size: 14px;
-    outline: none;
-    border: none;
-    cursor: pointer;
-    border-radius: 30px;
-    font-family: Montserrat;
-    font-weight: 300;
-    letter-spacing: 0.5px;
-  }
+  
   
   .hamburger {
     display: none;
@@ -68,7 +55,7 @@
     justify-content: center;
     align-items: start;
     flex-direction: column;
-    width: 50%;
+    width: 60%;
     height: 100%;
     gap: 12px;
   }
