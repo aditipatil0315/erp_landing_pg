@@ -3,7 +3,7 @@ import './Section4.css'
 
 const Section4 = () => {
   return (
-    <div className='section4'>
+    <div className='section4' id='product'>
       <div className="sec4_upper">
         <br />
         <h2>

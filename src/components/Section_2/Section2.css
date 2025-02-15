@@ -11,6 +11,7 @@
 
 .card_container {
     width: 100%;
+    box-shadow: none;
     max-width: 1200px;
 }
 

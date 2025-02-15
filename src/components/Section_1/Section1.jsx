@@ -18,9 +18,9 @@ const Section1 = () => {
 
         <div className={`links ${menuOpen ? "open" : ""}`}>
           <a href="#">Home</a>
-          <a href="#">About</a>
-          <a href="#">Products</a>
-          <a href="#">Contact</a>
+          <a href="#about">About</a>
+          <a href="#product">Products</a>
+          <a href="#contact">Contact</a>
         </div>
       </div>
 

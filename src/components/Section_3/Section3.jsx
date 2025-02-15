@@ -4,7 +4,7 @@ import img_about from '../../assets/img_3.jpg'
 
 const Section3 = () => {
   return (
-    <div className=' section3'>
+    <div className=' section3' id='about'>
         <div className="sec3_left">
             <div className="upper">
                 <h1>About Us</h1>
