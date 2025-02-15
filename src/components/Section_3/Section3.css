@@ -4,7 +4,7 @@
     font-family: Montserrat;
     height: 80vh;
     width: 100%;
-    padding: 20px 50px;
+    padding: 20px 70px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -47,7 +47,7 @@
 
 .sec3_right {
     display: flex;
-    justify-content: center;
+    justify-content: end;
     align-items: center;
     height: 100%;
     width: 50%;

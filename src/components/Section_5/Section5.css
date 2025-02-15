@@ -3,10 +3,9 @@
 .section5 {
     font-family: Montserrat;
     width: 100%;
-    padding: 20px 50px;
+    padding: 0 50px;
     display: flex;
     min-height: auto;
-    padding-top: 2rem;  
   }
   
   .image-section {

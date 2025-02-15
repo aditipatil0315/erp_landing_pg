@@ -16,21 +16,21 @@ const Section4 = () => {
 
       <div className="sec4_bottom">
         <div className="left_one">
-          <h1>Our Design Expertise</h1>
-          <br />
-          <h2>At Step Digital, we don’t just design; we build experiences that shape industries.</h2>
-          <p><span>At Step Digital</span>, we believe that design is more than just visuals—it’s an experience, a system, and a strategy. Our comprehensive suite of end-to-end design services ensures that manufacturers and businesses not only stand out but <span>also create long-lasting impressions in their industry.</span></p>
+          <h1>Why Choose Step Technology?</h1>
+          {/* <br /> */}
+          <h2>Comprehensive Solutions from Consultation to Ongoing Support</h2>
+          <p><span>We provide</span> consultation, development, seamless integration, training, and continuous maintenance to ensure a custom-fit, scalable solution for your business. Partner with Step Technology to transform your <span>ERP, CRM, and management systems.</span></p>
 
         </div>
 
         <div className="right_one">
-          <h2>About Us - Why Step Digital? </h2>
+          <h2>We provide <span>end-to-end <br /> solutions</span>,including</h2>
           <ol>
-            <li>Brand Identity & Visual Systems</li>
+            <li>Consultation and System Design</li>
             <li>UI/UX Design & Digital Experience</li>
             <li>Social Media & Content Design</li>
-            <li>Product & Industrial Design Support</li>
-            <li>Strategic & Data-Driven Design</li>
+            <li>Maintenance and Support</li>
+            <li>Development and Integration</li>
           </ol>
         </div>
       </div>
