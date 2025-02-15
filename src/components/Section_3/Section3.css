@@ -97,7 +97,6 @@
     }
 }
 
-/* 🔹 Mobile (Small Screens) */
 @media (max-width: 768px) {
     .section3 {
         padding: 30px 20px;
@@ -126,7 +125,6 @@
         }
 }
 
-/* 🔹 Extra Small Mobile (Very Small Screens) */
 @media (max-width: 480px) {
     .section3 {
         padding: 20px;

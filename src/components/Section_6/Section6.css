@@ -1,7 +1,6 @@
 .section6 {
     padding: 20px 50px ;
     width: 100%;
-    /* display: flex; */
     text-align: center;
   }
   
@@ -21,7 +20,6 @@
     margin: 0 auto;
   }
   
-  /* ✅ Feature Cards */
   .feature {
     position: relative;
     display: flex;
@@ -30,7 +28,7 @@
     align-items: center;
     border: 2px solid black;
     background: white;
-    width: calc(25% - 20px); /* 3 columns */
+    width: calc(25% - 20px);
     height: 250px;
     padding: 20px;
     border-radius: 10px;
@@ -71,18 +69,17 @@
     
   }
   
-  /* ✅ Responsive Design */
-  /* 2 Columns on Tablets */
+  
   @media (max-width: 1024px) {
     .feature {
-      width: calc(50% - 20px); /* 2 columns */
+      width: calc(50% - 20px); 
     }
   }
   
-  /* 1 Column on Mobile */
+
   @media (max-width: 768px) {
     .feature {
-      width: 100%; /* 1 column */
+      width: 100%; 
     }
   }
   
