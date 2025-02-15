@@ -135,6 +135,7 @@ span {
 
     .left_one h2 {
         font-size: 22px;
+
     }
 
     .left_one p {
@@ -143,5 +144,10 @@ span {
 
     .right_one ol {
         font-size: 16px;
+    }
+
+    .right_one h2 {
+        margin-right: -2.3rem;
+        margin-left: 1rem;
     }
 }
