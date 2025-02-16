@@ -28,7 +28,7 @@ const Section1 = () => {
         <div className="left">
           <h1>Transform your business with custom-built management tools and workflows.</h1>
           <h3>Tailored solutions for all industries—manufacturing, healthcare, retail, and more.</h3>
-          <button className='explore_btn'>Explore</button>
+          <a href="#explore"><button className='explore_btn' >Explore</button></a>
         </div>
         <div className="right">
           <img src={img_2} alt="Business Solutions" />

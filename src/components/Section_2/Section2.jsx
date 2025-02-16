@@ -19,7 +19,7 @@ const Section2 = () => {
 
 
   return (
-    <div className='section2'>
+    <div className='section2' >
         <div className="card_container">
             <br />
             <h1>Services We Provide</h1>

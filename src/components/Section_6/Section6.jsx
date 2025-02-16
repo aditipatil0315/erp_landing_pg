@@ -15,7 +15,7 @@ const Section6 = () => {
   ];
 
   return (
-    <section className="section6">
+    <section className="section6" id="explore">
       <h2 className="section-title"> Why Custom ERP, CRM & Management Software?</h2>
       <br />
       <div className="cards_box">
