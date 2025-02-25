@@ -17,28 +17,27 @@ const Footer = () => {
                             </ul>
                         </div>
                     </div>
+                
                     <div className="footer-section">
-                        <h4>Help</h4>
+                        <h4>Get in touch - India</h4>
                         <ul>
-                            <li>Customer Support</li>
-                            <li>Delivery Details</li>
-                            <li>Terms & Conditions</li>
-                            <li>Privacy Policy</li>
+                            <li>12B, Reliable Tech Park, C Wing, Thane - Belapur Rd, Gavate Wadi, MIDC, Airoli, Mumbai, Navi Mumbai, Maharashtra 400708, India</li>
+                            <br />
+                            <li>Email us : contact@stepdigitals.com</li>
+                            <br />
+                            <li>Call us: +91-8692845191</li>
                         </ul>
                     </div>
+
                     <div className="footer-section">
-                        <h4>Resources</h4>
+                        <h4>Get in touch - Canada</h4>
                         <ul>
-                            <li>Blogs</li>
-                            <li>Youtube Channel</li>
-                        </ul>
-                    </div>
-                    <div className="footer-section">
-                        <h4>Get in touch</h4>
-                        <ul>
-                            <li>SRD House, LNB Road, Mangaldoi, Assam,784125</li>
-                            <li>Email us : hello@organictea.com</li>
-                            <li>Call us: +91 8210687508</li>
+                            <li>Toronto, Canada</li>
+                            <br />
+                            <li>Email us : canada@stepdigitals.com
+                            </li>
+                            <br />
+                            <li>Call us: +1(437)808-1479</li>
                         </ul>
                     </div>
                 </div>

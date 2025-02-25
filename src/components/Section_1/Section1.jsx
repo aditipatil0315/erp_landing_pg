@@ -30,18 +30,17 @@ const Section1 = () => {
         <div className={`links ${menuOpen ? "open" : ""}`}>
           <a href="#">Home</a>
           <a href="#about">About</a>
-          <a href="#product">Products</a>
-          <a href="#contact">Contact</a>
-        </div>
+          <a href="#explore">Products</a>
+       </div>
       </div>
 
       <div className="content_section">
         <div className="left">
-          <h1><span>Transform your business</span> with custom-built management tools and workflows.</h1>
+          <h1><span>Transform your business</span> with custom - <span>built management</span> tools and workflows.</h1>
           <h3>Tailored solutions for all industries—manufacturing, healthcare, retail, and more.</h3>
           <h3>Unlock efficiency with custom management tools—tailored for every industry! <br /> <br /> <span>Contact us today</span></h3>
           <div className="btns">
-          <a href="#contact"><button className='explore_btn' >Book My Slot</button></a>
+          <a href="https://calendly.com/enquire-stepconsultancy/seo-landing-page?month=2025-02"><button className='explore_btn' >Book My Slot</button></a>
           <a href="#explore"><button className='explore_btn' >Explore</button></a>
           </div>
         </div>
