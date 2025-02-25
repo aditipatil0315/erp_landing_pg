@@ -91,6 +91,13 @@
 }
 
 @media (max-width: 768px) {
+  .image-section {
+    display: none; /* Hide the image section on mobile */
+}
+
+.form-section {
+    width: 100%; /* Make form-section take full width */
+}
     .section5 {
       padding-top: 3rem;
 

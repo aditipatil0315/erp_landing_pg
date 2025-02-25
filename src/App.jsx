@@ -13,12 +13,12 @@ function App() {
   return (
     <>
       <Section1/>
+      {/* <Section5/> */}
       <Section2/>
       <Section3/>
       <Section6/>
       <Section4/>
-      <Section5/>
-      <Footer/>
+      <Footer/> 
 
     </>
   )
