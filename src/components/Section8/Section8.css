@@ -41,6 +41,11 @@
     gap: 40px;
     width: 100%;
   }
+
+  .factor_grid .factor.left_ {
+    margin-left: 2.7rem;
+
+  }
   
   /* Styling for each factor */
   .factor {
@@ -56,7 +61,6 @@
     border: 1px solid rgba(255, 255, 255, 0.2);
   }
   
-  /* Left and right alignment */
   .factor.left_ {
     align-self: flex-end;
   }
@@ -101,6 +105,12 @@
     .factor_grid {
       grid-template-columns: 1fr; /* Stack items vertically */
     }
+
+    .factor_grid .factor.left_ {
+        margin-left: 2rem;
+    
+      }
+
     .factor {
       align-self: center !important;
       height: 300px;

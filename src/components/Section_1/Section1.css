@@ -207,12 +207,19 @@
     }
 
     .navbar {
-      padding: 0 10px;
-      margin: 0;
+      padding: 0 20px;
+      padding-top: 2.5rem;
+      height: 5vh;
       flex-direction: row;
       justify-content: space-between;
       align-items: center;
     }
+
+    .logo {
+      font-size: 16px;
+    }
+
+
   
     .hamburger {
       font-size: 1.7rem;

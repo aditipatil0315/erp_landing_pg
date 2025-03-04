@@ -5,7 +5,7 @@ const Card = ({ heading, text }) => {
   return (
     <div className="card">
       <h2 className="card-heading">{heading}</h2>
-      <br />
+      {/* <br /> */}
       <p className="card-text">{text}</p>
     </div>
   );

@@ -7,8 +7,16 @@ import Section3 from './components/Section_3/Section3'
 import Section4 from './components/Section_4/Section4'
 import Section5 from './components/Section_5/Section5'
 import Section6 from './components/Section_6/Section6'
+import Stats from './components/Stats/Stats'
 import VideoSection from './components/VideoSection/VideoSection'
 
+
+const statsData = [
+  { number: "9+", description: "Years in Custom Software Development" },
+  { number: "3000+", description: "Software Projects Delivered" },
+  { number: "1600+", description: "Certified Technology Professionals" },
+  { number: "98%", description: "Client Retention Rate" },
+];
 
 function App() {
 
@@ -20,6 +28,7 @@ function App() {
       <Section3/>
       {/* <VideoSection/> */}
       <Section8/>
+      <Stats stats={statsData}/>
       <Section6/>
       <Section4/>
       <Footer/> 

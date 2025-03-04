@@ -1,0 +1,82 @@
+
+
+.stats-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background: #000000;
+    padding: 40px;
+  }
+
+  .divv {
+    display: flex;
+    gap: 12px;
+  }
+  
+  .stat-box {
+    flex: 1;
+    min-width: 200px;
+    max-width: 250px;
+    text-align: center;
+    background: #222;
+    padding: 20px;
+    border-radius: 8px;
+    color: white;
+  }
+  
+  .stat-box h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .stat-box p {
+    font-size: 1rem;
+    color: #ccc;
+    border-top: 1px solid #444;
+    padding-top: 10px;
+  }
+  
+  .consultation-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: 0.3s ease;
+  }
+  
+  .consultation-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Responsive Styling */
+  @media (max-width: 768px) {
+    .stats-container {
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+    }
+
+    .divv {
+        display: flex;
+        flex-direction: column;
+    }
+  
+    .stat-box {
+      width: 100%;
+      max-width: 300px;
+    }
+  
+    .consultation-btn {
+      width: 100%;
+      max-width: 300px;
+      margin-top: 20px;
+    }
+  }
+  
