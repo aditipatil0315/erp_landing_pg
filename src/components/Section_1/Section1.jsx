@@ -18,9 +18,10 @@ const Section1 = () => {
 
   return (
     <div className='section1'>
+  <div className="overlay"></div> 
       <div className="navbar">
         <div className="logo">
-          logo <br />text
+          Step Tech
         </div>
 
         <div className="hamburger" onClick={() => setMenuOpen(!menuOpen)}>
@@ -35,18 +36,24 @@ const Section1 = () => {
       </div>
 
       <div className="content_section">
-        <div className="left">
-          <h1><span>Transform your business</span> with custom - <span>built management</span> tools and workflows.</h1>
-          <h3>Tailored solutions for all industries—manufacturing, healthcare, retail, and more.</h3>
-          <h3>Unlock efficiency with custom management tools—tailored for every industry! <br /> <br /> <span>Contact us today</span></h3>
-          <div className="btns">
-          <a href="https://calendly.com/enquire-stepconsultancy/seo-landing-page?month=2025-02"><button className='explore_btn' >Book My Slot</button></a>
-          <a href="#explore"><button className='explore_btn' >Explore</button></a>
-          </div>
-        </div>
+      <div className="left">
+  <div className="overlay"></div>
+  <h1><span>Transform your business</span> with custom - <span>built management</span> tools and workflows.</h1>
+  <h3>Tailored solutions for all industries—manufacturing, healthcare, retail, and more.</h3>
+  <h3>Unlock efficiency with custom management tools—tailored for every industry! <br /> <br /> <span>Contact us today</span></h3>
+  <div className="btns">
+    <a href="https://calendly.com/enquire-stepconsultancy/seo-landing-page?month=2025-02">
+      <button className='explore_btn'>Book My Slot</button>
+    </a>
+    <a href="#explore">
+      <button className='explore_btn'>Explore</button>
+    </a>
+  </div>
+</div>
+
 
         <div className="clients-section">
-      <h2>Our Clients</h2>
+      <h2>Trusted by</h2>
       <div className="clients-grid">
         {clients.map((logo, index) => (
           <div key={index} className="client-logo">

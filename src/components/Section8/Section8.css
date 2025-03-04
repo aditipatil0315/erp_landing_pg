@@ -1,0 +1,129 @@
+
+
+/* Container styling */
+.factor_container {
+    
+    width: 100%;
+    margin: auto;
+    padding: 50px 20px;
+    background-color: black;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+  }
+
+  
+  /* Section heading */
+  .factor_heading {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    color: white;
+  }
+
+  p {
+    text-align: center;
+  }
+  
+  /* Grid layout for factors */
+  .factor_grid {
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    width: 100%;
+  }
+  
+  /* Styling for each factor */
+  .factor {
+    width: 90%;
+    height: 200px;
+    background: black;
+    padding: 20px;
+    border-radius: 8px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+  }
+  
+  /* Left and right alignment */
+  .factor.left_ {
+    align-self: flex-end;
+  }
+  
+  .factor.right {
+    align-self: flex-start;
+  }
+  
+  /* Factor numbering */
+  .factor_id {
+    font-style: italic;
+    font-size: 18px;
+    color: gray;
+  }
+  
+  /* Factor title */
+  .factor_title {
+    font-size: 22px;
+    font-weight: bold;
+  }
+  
+  /* Factor description */
+  .factor_description {
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.8);
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 1024px) {
+    .factor_grid {
+      gap: 20px;
+    }
+    .factor_title {
+      font-size: 20px;
+    }
+    .factor_description {
+      font-size: 15px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .factor_grid {
+      grid-template-columns: 1fr; /* Stack items vertically */
+    }
+    .factor {
+      align-self: center !important;
+      height: 300px;
+    }
+    .factor_title {
+      font-size: 18px;
+    }
+
+    .factor_heading, p {
+        text-align: left;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .factor_container {
+      padding: 30px 15px;
+    }
+    .factor {
+      padding: 15px;
+    }
+    .factor_heading {
+      font-size: 24px;
+    }
+    .factor_id {
+      font-size: 16px;
+    }
+    .factor_title {
+      font-size: 18px;
+    }
+    .factor_description {
+      font-size: 14px;
+    }
+  }
+  

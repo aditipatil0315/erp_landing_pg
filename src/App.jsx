@@ -1,5 +1,6 @@
 import './App.css'
 import Footer from './components/Footer/Footer'
+import Section8 from './components/Section8/Section8'
 import Section1 from './components/Section_1/Section1'
 import Section2 from './components/Section_2/Section2'
 import Section3 from './components/Section_3/Section3'
@@ -17,7 +18,8 @@ function App() {
       {/* <Section5/> */}
       <Section2/>
       <Section3/>
-      <VideoSection/>
+      {/* <VideoSection/> */}
+      <Section8/>
       <Section6/>
       <Section4/>
       <Footer/> 
