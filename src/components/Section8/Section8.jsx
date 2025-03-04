@@ -38,7 +38,7 @@ const Section8 = () => {
     return (
         <div className="factor_container">
           <h2 className="factor_heading">Factors that Cement Our Credibility as a Custom Software Development Company</h2>
-          <p>With almost a decade of experience in the industry, we have the expertise to handle software development projects of diverse complexity levels, making Appinventiv's custom software development services the right fit <span>for your IT consulting needs.</span></p>
+          <p className="factor_para">With almost a decade of experience in the industry, we have the expertise to handle software development projects of diverse complexity levels, making Appinventiv's custom software development services the right fit <span>for your IT consulting needs.</span></p>
           <br />
           <div className="factor_grid">
             {factorsData.map((factor, index) => (

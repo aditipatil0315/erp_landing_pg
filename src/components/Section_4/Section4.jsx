@@ -16,15 +16,16 @@ const Section4 = () => {
 
       <div className="sec4_bottom">
         <div className="left_one">
-          <h1>Why Choose Step Technology?</h1>
+          <h2>Why Choose Step Technology?</h2>
           {/* <br /> */}
-          <h2>Comprehensive Solutions from Consultation to Ongoing Support</h2>
+          <p>Comprehensive Solutions from Consultation to Ongoing Support</p>
           <p><span>We provide</span> consultation, development, seamless integration, training, and continuous maintenance to ensure a custom-fit, scalable solution for your business. Partner with Step Technology to transform your <span>ERP, CRM, and management systems.</span></p>
 
         </div>
+        <br />
 
         <div className="right_one">
-          <h2>We provide <span>end-to-end <br /> solutions</span>,including</h2>
+          <h2>We provide <span>end-to-end solutions</span>,including</h2>
           <ol>
             <li>Consultation and System Design</li>
             <li>UI/UX Design & Digital Experience</li>

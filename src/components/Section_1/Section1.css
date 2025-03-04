@@ -28,6 +28,7 @@
     justify-content: center;
     align-items: center;
     gap: 32px;
+    z-index: 10;
   }
   
   .links a {
@@ -276,7 +277,7 @@
     }
 
     .clients-section {
-      background-color: #fff;
+      background-color: black;
       display: flex;
       flex-direction: column;
     }

@@ -17,12 +17,20 @@
     text-align: center;
     font-size: 28px;
     font-weight: bold;
-    margin-bottom: 40px;
+    margin-bottom: 10px;
     color: white;
   }
 
-  p {
+  .factor_para {
+    background-color: #5AE4A8;
+    color: black;
+    font-weight: 500;
+    width: 70vw;
+    margin: auto;
+    padding: 7px;
+    margin-bottom: 30px;
     text-align: center;
+    
   }
   
   /* Grid layout for factors */
@@ -101,8 +109,14 @@
       font-size: 18px;
     }
 
-    .factor_heading, p {
+    .factor_heading {
         text-align: left;
+    }
+
+    .factor_para {
+        text-align: left;
+        padding: 5px;
+        width: 100%;
     }
   }
   

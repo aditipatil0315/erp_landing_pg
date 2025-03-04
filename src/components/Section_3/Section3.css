@@ -62,7 +62,7 @@
         flex-direction: column-reverse;
         height: auto;
         text-align: center;
-        padding: 40px 30px;
+        padding: 0px 30px;
     }
 
     .sec3_left, .sec3_right {
@@ -75,20 +75,26 @@
         height: auto;
     }
 
-    .upper h1 {
+    .sec3_left h1 {
         font-size: 40px;
+        padding: 5px;
     }
 
     .lower {
+        text-align: left;
         padding: 0 10px;
+        width: 100%;
     }
 
     .lower h2 {
         font-size: 20px;
+        width: 100%;
     }
 
     .lower h3 {
         font-size: 15px;
+        width: 100%;
+
     }
 
     .sec3_right img {
@@ -106,8 +112,13 @@
         font-size: 32px;
     }
 
+    .lower {
+        width: 100%;
+    }
+
     .lower h2 {
         font-size: 18px;
+        width: 100%;
     }
 
     .lower h3 {
