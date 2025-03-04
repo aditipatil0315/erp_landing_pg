@@ -65,11 +65,13 @@
 
     .divv {
         display: flex;
+        justify-content: center;
+        align-items: center;
         flex-direction: column;
     }
   
     .stat-box {
-      width: 100%;
+      width: 80%;
       max-width: 300px;
     }
   
