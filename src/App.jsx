@@ -1,4 +1,5 @@
 import './App.css'
+import AiComp from './components/AiComp/AiComp'
 import Footer from './components/Footer/Footer'
 import Section8 from './components/Section8/Section8'
 import Section1 from './components/Section_1/Section1'
@@ -22,7 +23,7 @@ const statsData = [
 function App() {
 
   return (
-    <>
+    <div className='app'>
       <Section1/>
       {/* <Section5/> */}
       <Section2/>
@@ -30,12 +31,21 @@ function App() {
       {/* <VideoSection/> */}
       <Section8/>
       <Stats stats={statsData}/>
+      <button onClick={() => window.open("https://calendly.com/enquire-stepconsultancy/seo-landing-page", "_blank")}
+      className="consultation-btn">Schedule Consultation</button>
+      <br />
+      <br />
       <Section6/>
       <Section4/>
+      <br />
+      <AiComp/>
+      <button onClick={() => window.open("https://calendly.com/enquire-stepconsultancy/seo-landing-page", "_blank")}
+      className="consultation-btn">Talk with AI</button>
+      <br />
       <Testimonials/>
       <Footer/> 
 
-    </>
+    </div>
   )
 }
 

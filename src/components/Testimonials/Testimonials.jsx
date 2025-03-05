@@ -14,8 +14,18 @@ const testimonials = [
     
   },
   {
+    text: "Our hospital needed a reliable HMS, and Step Tect delivered beyond expectations. Their system is efficient, user-friendly, and has streamlined patient management perfectly.",
+    name: "- Stride HRMS",
+    
+  },
+  {
     text: "Step Tect’s ERP helped us automate finance, inventory, and customer management. Their expertise and commitment to excellence made the transition smooth and hassle-free.",
     name: "- Groundscrew company",
+    
+  },
+  {
+    text: "Implementing Step Tect’s HMS was the best decision for our healthcare facility. Their system is intuitive, scalable, and backed by an outstanding support team.",
+    name: "- New Orchid Hospital ",
     
   },
  

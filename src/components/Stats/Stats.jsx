@@ -16,7 +16,7 @@ const StatsSection = ({ stats = [] }) => {
           <p className="error-message">No stats available</p>
         )}
         </div>
-        <button className="consultation-btn">Schedule Consultation Call</button>
+        
       </section>
     );
   };
