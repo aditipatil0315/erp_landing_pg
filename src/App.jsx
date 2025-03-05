@@ -8,6 +8,7 @@ import Section4 from './components/Section_4/Section4'
 import Section5 from './components/Section_5/Section5'
 import Section6 from './components/Section_6/Section6'
 import Stats from './components/Stats/Stats'
+import Testimonials from './components/Testimonials/Testimonials'
 import VideoSection from './components/VideoSection/VideoSection'
 
 
@@ -31,6 +32,7 @@ function App() {
       <Stats stats={statsData}/>
       <Section6/>
       <Section4/>
+      <Testimonials/>
       <Footer/> 
 
     </>
