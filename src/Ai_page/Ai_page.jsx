@@ -144,7 +144,7 @@ impact use cases that drive innovation and efficiency.</p>
 
 
     <div className="our_team_section">
-      <h2>Meet Our Experts</h2>
+      <h2>Meet Our Experts Members</h2>
       <div className="member">
         <div className="profile">
           <div className="img_person">
@@ -214,7 +214,8 @@ impact use cases that drive innovation and efficiency.</p>
 
 
     </div>
-    
+
+
   
 
 

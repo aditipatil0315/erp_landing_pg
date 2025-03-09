@@ -271,10 +271,13 @@
   }
 
   .profile {
-    width: 50%;
+    width: 30%;
     display: flex;
     gap: 30px;
-    
+  
+  }
+
+  .intro {
     
   }
 
@@ -290,7 +293,7 @@
 
   .about {
     width: 50%;
-    background-color: red;
+    background-color: #2E2E2E;
   }
 
 
