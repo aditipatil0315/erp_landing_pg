@@ -184,15 +184,15 @@ impact use cases that drive innovation and efficiency.</p>
 
 
       <div className="member">
-        <div className="profile">
+        <div className="profile"> 
           <div className="img_person">
           <img src="" alt="" />
           </div>
       
           <div className="intro">
           hello
-          hiii
           
+
 
           </div>
           
