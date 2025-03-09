@@ -278,7 +278,12 @@
   }
 
   .intro {
-    
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    gap: 30px;
+    background-color: yellowgreen;
+
   }
 
   .img_person {
@@ -293,7 +298,7 @@
 
   .about {
     width: 50%;
-    background-color: #2E2E2E;
+    
   }
 
 
