@@ -103,11 +103,12 @@
   
   @media (max-width: 768px) {
     .factor_grid {
-      grid-template-columns: 1fr; /* Stack items vertically */
+      grid-template-columns: 1fr; 
+      margin-left: 1rem;
     }
 
     .factor_grid .factor.left_ {
-        margin-left: 2rem;
+        margin-left: 0;
     
       }
 

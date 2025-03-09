@@ -37,12 +37,13 @@ function App() {
       <br />
       <Section6/>
       <Section4/>
+      <Testimonials/>
       <br />
       <AiComp/>
       <button onClick={() => window.open("https://calendly.com/enquire-stepconsultancy/seo-landing-page", "_blank")}
       className="consultation-btn">Talk with AI</button>
       <br />
-      <Testimonials/>
+      
       <Footer/> 
 
     </div>

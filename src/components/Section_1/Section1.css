@@ -151,6 +151,8 @@
     justify-items: center;
     align-items: center;
   }
+
+  
   
   .client-logo {
     display: flex;
@@ -323,6 +325,14 @@
       width: 140px;
       height: 36px;
       font-size: 14px;
+    }
+
+    .clients-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+      align-items: center;
+      justify-items: center;
     }
   
     

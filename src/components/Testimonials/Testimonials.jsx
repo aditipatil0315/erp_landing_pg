@@ -14,7 +14,7 @@ const testimonials = [
     
   },
   {
-    text: "Our hospital needed a reliable HMS, and Step Tect delivered beyond expectations. Their system is efficient, user-friendly, and has streamlined patient management perfectly.",
+    text: "Step Tect’s HRMS made managing our team so much easier. Payroll, attendance, and performance tracking are now seamless and hassle-free.",
     name: "- Stride HRMS",
     
   },
