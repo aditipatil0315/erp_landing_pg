@@ -1,3 +1,4 @@
+import Ai_page from './Ai_page/Ai_page'
 import './App.css'
 import AiComp from './components/AiComp/AiComp'
 import Footer from './components/Footer/Footer'
@@ -24,11 +25,13 @@ function App() {
 
   return (
     <div className='app'>
-      <Section1/>
-      {/* <Section5/> */}
+
+    <Ai_page/>
+
+
+      {/* <Section1/>
       <Section2/>
       <Section3/>
-      {/* <VideoSection/> */}
       <Section8/>
       <Stats stats={statsData}/>
       <button onClick={() => window.open("https://calendly.com/enquire-stepconsultancy/seo-landing-page", "_blank")}
@@ -44,7 +47,7 @@ function App() {
       className="consultation-btn">Talk with AI</button>
       <br />
       
-      <Footer/> 
+      <Footer/>  */}
 
     </div>
   )

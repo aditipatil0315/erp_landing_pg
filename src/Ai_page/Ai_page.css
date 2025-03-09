@@ -1,0 +1,295 @@
+
+
+.ai_conatiner {
+    width: 100%;
+    height: auto;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.heading_tagline{
+
+    position: relative;
+    padding: 0 70px ;
+    z-index: 10;
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+}
+
+
+.heading_tagline h1  {
+    font-size: 48px;
+    color: whitesmoke;
+}
+
+
+.heading_tagline h3 {
+    color: whitesmoke;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+/* Video Container */
+.video_container {
+
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+}
+
+/* Background Video */
+.bg_video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 90%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -10;
+    pointer-events: none;
+}
+
+/* Video Overlay */
+.video_overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(6, 6, 6, 0.489));
+    z-index: -1;
+}
+
+
+.cta_ai {
+    padding: 12px 24px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    background-color: #ff4757;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.scale_section {
+    width: 100%;
+    height: 90vh;
+    background-color: #1B1B1B;
+    padding: 50px 90px;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    gap: 30px;
+    /* text-align: left; */
+}
+
+.scale_section h1 {
+    line-height: 1;
+    font-size: 36px;
+    font-size: 700;
+    color: whitesmoke;
+
+}
+
+.scale_section h3 {
+    line-height: 1;
+    font-size: 16px;
+    font-weight: 400;
+    color: whitesmoke;
+
+}
+
+.applications_card {
+    width: 100%;
+    text-align: left;
+    color: whitesmoke;
+}
+
+.services_box {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    color: white;
+    gap: 20px;
+    text-align: left;
+
+}
+
+.services_given {
+    background-color: #2E2E2E;
+    display: flex;
+    height: 150px;
+    flex-direction: column;
+    width: 300px;
+    padding: 20px;
+    gap: 20px;
+}
+
+.services_given i {
+    font-size: 25px;
+
+}
+
+
+/* dropdown section */
+.faq-container {
+    display: flex;
+    width: 100%;
+    height: 80vh;
+    background-color: black;
+    padding: 50px 70px;
+    color: white;
+    overflow: hidden;
+  }
+  
+  .faq-left {
+    flex: 1;
+    padding: 40px;
+    background-color: #1B1B1B;
+    height: 400px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+
+  }
+  
+  .faq-left h2 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .faq-left p {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  .faq-right {
+    flex: 1;
+    background: #fff;
+    color: #000;
+    height: 400px;
+    padding: 30px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+  }
+
+  .faq-right span {
+    color: black;
+  }
+  
+  .faq-item {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+  }
+  
+  .faq-question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 10px;
+  }
+  
+  .faq-answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+  }
+  
+  .faq-answer.open {
+    max-height: 100px;
+    padding: 10px;
+  }
+  
+  .arrow {
+    font-size: 18px;
+  }
+
+
+
+  .our_team_section {
+    width: 100%;
+    text-align: center;
+    padding: 30px 70px;
+    color: whitesmoke;
+
+  }
+
+  .member {
+    width: 100%;
+    height: 120px;
+    display: flex;
+    padding: 90px 50px;
+    /* flex-direction: column; */
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: left;
+    gap: 20px;
+    background-color: #1B1B1B;
+
+  }
+
+  .profile {
+    width: 50%;
+    display: flex;
+    gap: 30px;
+    
+    
+  }
+
+  .img_person {
+    background-color: grey;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    text-align: left;
+
+
+  }
+
+  .about {
+    width: 50%;
+    background-color: red;
+  }
+
+
+  
+
+
+
+
