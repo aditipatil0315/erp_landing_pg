@@ -1,19 +1,73 @@
 import React from 'react';
 import './Ai_page.css';
+import Ai_card from '../../src/components/Ai_card/Ai_card';
 import c1 from "../assets/client1.jpeg";
 import c2 from "../assets/client2.jpeg";
 import c3 from "../assets/client3.jpeg";
 import c4 from "../assets/client4.jpeg";
 import c5 from "../assets/client5.jpeg";
+import raveena from '../assets/Raveena.jpeg'
+import manthan from '../assets/Manthan.jpeg'
+import sanskar from '../assets/Sanskar.jpeg'
+
 import { useState } from 'react';
-// import bgVideo from "../assets/Ai_bg.mp4"; 
+import { FaHeartbeat, FaUtensils, FaShoppingCart, FaCarBattery, FaPlane, FaMusic, FaUsers, FaGlobe, FaHome, FaLeaf, FaGasPump, FaCar, FaUmbrella, FaIndustry, FaGraduationCap, FaNetworkWired, FaBoxes, FaTractor,FaPython,  FaDatabase, FaRobot, FaServer, FaBox, FaProjectDiagram, FaChartLine, FaTable, FaChartBar, FaBrain, FaCloud, FaAws, FaCode, FaTools, FaInfinity, FaBook, FaCubes  } from "react-icons/fa";
+// import { FaPython, FaDatabase, FaRobot, FaServer, FaBox, FaProjectDiagram, FaChartLine, FaTable, FaChartBar, FaBrain, FaCloud, FaAws, FaCode, FaTools, FaInfinity, FaBook, FaCubes } from "react-icons/fa";
+
+
+
+
+const ai_cardData = [
+  { icon: <FaHeartbeat />, title: "Healthcare" },
+  { icon: <FaChartLine />, title: "Finance" },
+  { icon: <FaUtensils />, title: "Restaurant" },
+  { icon: <FaShoppingCart />, title: "eCommerce" },
+  { icon: <FaCarBattery />, title: "Electric Vehicle (EV)" },
+  { icon: <FaCloud />, title: "SaaS" },
+  { icon: <FaPlane />, title: "Travel" },
+  { icon: <FaMusic />, title: "Entertainment" },
+  { icon: <FaUsers />, title: "On-Demand" },
+  { icon: <FaGlobe />, title: "Social Media" },
+  { icon: <FaBoxes />, title: "Logistics" },
+  { icon: <FaGraduationCap />, title: "Education" },
+  { icon: <FaHome />, title: "Real Estate" },
+  { icon: <FaLeaf />, title: "Aviation" },
+  { icon: <FaNetworkWired />, title: "Telecom" },
+  { icon: <FaTractor />, title: "Agriculture" },
+  { icon: <FaGasPump />, title: "Oil and Gas" },
+  { icon: <FaCar />, title: "Automotive" },
+  { icon: <FaUmbrella />, title: "Insurance" },
+  { icon: <FaIndustry />, title: "Manufacturing" },
+]; 
+
+
+const techStack = [
+  { icon: <FaPython />, title: "Python" },
+  { icon: <FaDatabase />, title: "Big Data" },
+  { icon: <FaRobot />, title: "Machine Learning" },
+  { icon: <FaServer />, title: "ETL" },
+  { icon: <FaBox />, title: "Databricks" },
+  { icon: <FaProjectDiagram />, title: "OpenCV" },
+  { icon: <FaChartLine />, title: "Scikit-learn" },
+  { icon: <FaTable />, title: "Pandas" },
+  { icon: <FaChartBar />, title: "Tableau" },
+  { icon: <FaBrain />, title: "Tensorflow" },
+  { icon: <FaChartBar />, title: "Grafana" },
+  { icon: <FaCloud />, title: "Azure" },
+  { icon: <FaAws />, title: "AWS" },
+  { icon: <FaCode />, title: "API" },
+  { icon: <FaTools />, title: "DevOps" },
+  { icon: <FaInfinity />, title: "Oracle" },
+  { icon: <FaBook />, title: "Jupyter" },
+  { icon: <FaCubes />, title: "Kubernetes" },
+];
 
 
 
 
 const Ai_page = () => {
 
-  const clients = [c1, c2, c3, c4, c5];
+const clients = [c1, c2, c3, c4, c5];
 
 const [openIndex, setOpenIndex] = useState(null);
 
@@ -148,18 +202,19 @@ impact use cases that drive innovation and efficiency.</p>
       <div className="member">
         <div className="profile">
           <div className="img_person">
-          <img src="" alt="" />
+          <img src= {sanskar} alt="" />
           </div>
       
           <div className="intro">
-          hello
+          <h2>Sanskaar Dubey</h2>
+          <p>Founder</p>
 
           </div>
           
 
         </div>
         <div className="about">
-          <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem quae architecto minima enim, aut illum.</h2>
+          <p>Sanskar Dubey is the founder of Step Consultancy, the parent company of Step Tech, a venture dedicated to building innovative, scalable, and business-centric technology solutions. With a vision to bridge the gap between businesses and digital transformation, Step Tech focuses on creating high-performance web and mobile applications, enterprise software, and AI-driven automation tools that drive efficiency and growth. </p>
         </div>
 
         
@@ -168,18 +223,19 @@ impact use cases that drive innovation and efficiency.</p>
       <div className="member">
         <div className="profile">
           <div className="img_person">
-          <img src="" alt="" />
+          <img src= {raveena} alt="" />
           </div>
       
           <div className="intro">
-          hello
+          <h2>Raveena Mishra </h2>
+          <p>Project Associate | Tech Management Lead</p>
 
           </div>
           
 
         </div>
         <div className="about">
-          <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem quae architecto minima enim, aut illum.</h2>
+          <p>Raveena ensures the seamless execution of tech projects by streamlining processes, optimizing team collaboration, and maintaining on-time delivery. She plays a key role in project planning, resource management, and agile implementation while ensuring quality and efficiency throughout the development cycle.</p>
         </div>
 
         
@@ -189,11 +245,12 @@ impact use cases that drive innovation and efficiency.</p>
       <div className="member">
         <div className="profile"> 
           <div className="img_person">
-          <img src="" alt="" />
+          <img src= {manthan} alt="" />
           </div>
       
           <div className="intro">
-          hello
+          <h2>Manthan Jethwani</h2>
+          <p>AI Engineer | AI Agents | AI Automation</p>
           
 
 
@@ -202,7 +259,7 @@ impact use cases that drive innovation and efficiency.</p>
 
         </div>
         <div className="about">
-          <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem quae architecto minima enim, aut illum.</h2>
+          <p>Manthan designs and builds intelligent AI solutions and Ai agents. He empowers businesses to reclaim valuable time by automating repetitive tasks, optimizing processes, reducing overhead, and accelerating growth.</p>
         </div>
 
         
@@ -213,6 +270,34 @@ impact use cases that drive innovation and efficiency.</p>
   
 
 
+    </div>
+
+
+
+    <div className="ai_cards">
+      <h1>Industries We Empower and Transform with Our AI Services</h1>
+      <p>
+        Our AI services redefine businesses across industries by driving innovation, improving efficiency, and unlocking new growth opportunities. From healthcare, finance, retail, and real estate to travel and hospitality, we empower businesses to stay ahead of the competition with cutting-edge AI business solutions tailored to their unique needs.
+      </p>
+      <div className="grid-container">
+        {ai_cardData.map((item, index) => (
+          <Ai_card key={index} icon={item.icon} title={item.title} />
+        ))}
+      </div>
+    </div>
+
+
+
+    <div className="ai_cards">
+      <h1>AI Tech Stack Cluster We Use for Intelligent Model Development</h1>
+      <p>
+      Our custom AI solutions for businesses are meticulously crafted using an ideal technology stack tailored to meet every requirement of your business. From advanced machine learning frameworks to cloud-based platforms, we utilize the best tools to ensure scalable, stable, efficient, and innovative AI-oriented outcomes.
+      </p>
+      <div className="grid-container">
+        {techStack.map((item, index) => (
+          <Ai_card key={index} icon={item.icon} title={item.title} />
+        ))}
+      </div>
     </div>
 
 
