@@ -379,7 +379,7 @@ impact use cases that drive innovation and efficiency.</p>
 
       {/* Bottom Section with Scrollable Case Studies */}
       <div className="bottom_case_study">
-        <button className="arrow btn_left" onClick={prevSlide}>&#8249;</button>
+        <button className="arrow_ai btn_left" onClick={prevSlide}>&#8249;</button>
 
         <div className="case_study_wrapper">
           <br />
@@ -410,7 +410,7 @@ impact use cases that drive innovation and efficiency.</p>
           </div>
         </div>
 
-        <button className="arrow btn_right" onClick={nextSlide}>&#8250;</button>
+        <button className="arrow_ai btn_right" onClick={nextSlide}>&#8250;</button>
       </div>
     </div>
 

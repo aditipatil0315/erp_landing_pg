@@ -242,6 +242,10 @@
     max-height: 100px;
     padding: 10px;
   }
+
+  .faq-answer p {
+    color: black;
+  }
   
   .arrow {
     font-size: 18px;
@@ -401,6 +405,7 @@
 
 
 
+/* case study sliding section  */
 
   .case_study_section {
     width: 80%;
@@ -410,7 +415,6 @@
     color: whitesmoke;
     text-align: center;
     padding: 50px 0px ;
-    /* overflow-x: hidden; */
 
   }
   
@@ -438,12 +442,14 @@
     color: whitesmoke;
     height: 80%;
     margin: auto;
+    z-index: 100;
   }
   
-  .case_study_wrapper {
+  /* .case_study_wrapper {
     display: flex;
+    width: 100%;
     transition: transform 0.5s ease-in-out;
-  }
+  } */
   
   .case_study {
     display: flex;
@@ -509,7 +515,7 @@
   }
   
   /* Arrows */
-  .arrow {
+  .arrow_ai {
     position: absolute;
     top: 92%;
     transform: translateY(-50%);
@@ -518,7 +524,6 @@
     border: none;
     cursor: pointer;
     font-size: 1.5rem;
-    /* padding: 10px; */
     height: 45px;
     width: 45px;
     border: 1px solid grey;
@@ -526,17 +531,17 @@
     z-index: 100;
   }
   
-  .arrow.btn_left {
+  .arrow_ai.btn_left {
     position: absolute;
-    left: 10px;
+    left: 20px;
   }
   
-  .arrow.btn_right {
+  .arrow_ai.btn_right {
     position: absolute;
-    right: 10px;
+    right: 20px;
   }
   
-  .arrow:hover {
+  .arrow_ai:hover {
     background: rgba(0, 0, 0, 0.8);
   }
   
