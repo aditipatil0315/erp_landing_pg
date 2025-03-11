@@ -8,6 +8,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    overflow-x: hidden;
 }
 
 .heading_tagline{
@@ -393,6 +394,152 @@
     color: white;
   }
 
+
+
+
+
+
+
+
+
+  .case_study_section {
+    width: 80%;
+    margin: auto;
+    height: 90vh;
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;
+    padding: 50px 0px ;
+    /* overflow-x: hidden; */
+
+  }
+  
+  /* Upper Case Study Section */
+  .upper_case_study {
+    margin-bottom: 20px;
+  }
+  
+  .upper_case_study h2 {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .upper_case_study p {
+    font-size: 1.2rem;
+    color: #666;
+  }
+  
+  /* Bottom Case Study Section */
+  .bottom_case_study {
+    position: relative;
+    overflow: hidden;
+    width: 80%;
+    background-color: black;
+    color: whitesmoke;
+    height: 80%;
+    margin: auto;
+  }
+  
+  .case_study_wrapper {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .case_study {
+    display: flex;
+    width: 100%;
+  }
+  
+  .case_study_item {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    min-width: 100%;
+    height: 62vh;
+    background-color: black;
+    color: whitesmoke;    
+    /* padding: 20px; */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .statement {
+    font-size: 1.5rem;
+    font-weight: 600;
+    width: 100%;
+    height: 20%;
+    background-color: black;
+    color: whitesmoke;
+        display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .content_study {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .problem, .solution, .results {
+    width: 40%;
+    height: 100%;
+    margin: 5px;
+    background-color: #111111;
+    color: whitesmoke;
+    }
+  
+  h3 {
+    
+    font-size: 1.5rem;
+    color: whitesmoke;
+    margin: 1rem 0;
+  }
+  
+  p {
+    font-size: 1rem;
+    color: whitesmoke;
+    margin: 1rem 0;
+
+  }
+  
+  /* Arrows */
+  .arrow {
+    position: absolute;
+    top: 92%;
+    transform: translateY(-50%);
+    background-color: black;
+    color: whitesmoke;
+    border: none;
+    cursor: pointer;
+    font-size: 1.5rem;
+    /* padding: 10px; */
+    height: 45px;
+    width: 45px;
+    border: 1px solid grey;
+    border-radius: 5%;
+    z-index: 100;
+  }
+  
+  .arrow.btn_left {
+    position: absolute;
+    left: 10px;
+  }
+  
+  .arrow.btn_right {
+    position: absolute;
+    right: 10px;
+  }
+  
+  .arrow:hover {
+    background: rgba(0, 0, 0, 0.8);
+  }
+  
 
   
 
