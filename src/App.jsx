@@ -26,10 +26,10 @@ function App() {
   return (
     <div className='app'>
 
-    <Ai_page/>
+    {/* <Ai_page/> */}
 
 
-      {/* <Section1/>
+      <Section1/>
       <Section2/>
       <Section3/>
       <Section8/>
@@ -47,7 +47,7 @@ function App() {
       className="consultation-btn">Talk with AI</button>
       <br />
       
-      <Footer/>  */}
+      <Footer/> 
 
     </div>
   )
