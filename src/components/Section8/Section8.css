@@ -1,154 +1,150 @@
-
-
 /* Container styling */
 .factor_container {
-    
-    width: 100%;
-    margin: auto;
-    padding: 50px 20px;
-    background-color: black;
-    color: white;
-    font-family: "Montserrat", sans-serif;
+  width: 100%;
+  margin: auto;
+  padding: 50px 20px;
+  background-color: black;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Section heading */
+.factor_heading {
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.factor_para {
+  background-color: #5ae4a8;
+  color: black;
+  font-weight: 500;
+  width: 70vw;
+  margin: auto;
+  padding: 10px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+/* Grid layout for factors */
+.factor_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Styling for each factor */
+.factor {
+  width: 95%;
+  height: auto;
+  background: black;
+  padding: 20px;
+  border-radius: 8px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* Fix alignment for left and right cards */
+.factor.left_ {
+  align-self: flex-start;
+  margin-left: 3rem;
+}
+
+.factor.right_ {
+  align-self: flex-end;
+  margin-right: 3rem;
+}
+
+/* Factor numbering */
+.factor_id {
+  font-style: italic;
+  font-size: 18px;
+  color: gray;
+}
+
+/* Factor title */
+.factor_title {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+/* Factor description */
+.factor_description {
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+/* Responsive adjustments */
+@media (max-width: 1024px) {
+  .factor_grid {
+      gap: 20px;
+  }
+  .factor_title {
+      font-size: 20px;
+  }
+  .factor_description {
+      font-size: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .factor_grid {
+      grid-template-columns: 1fr;
+      gap: 30px;
   }
 
-  
-  /* Section heading */
+  .factor {
+      width: 100%;
+      align-self: center !important;
+  }
+
+  .factor.left_,
+  .factor.right_ {
+      margin-left: 0;
+      margin-right: 0;
+  }
+
+  .factor_title {
+      font-size: 18px;
+  }
+
   .factor_heading {
-    text-align: center;
-    font-size: 28px;
-    font-weight: bold;
-    margin-bottom: 10px;
-    color: white;
+      text-align: left;
   }
 
   .factor_para {
-    background-color: #5AE4A8;
-    color: black;
-    font-weight: 500;
-    width: 70vw;
-    margin: auto;
-    padding: 7px;
-    margin-bottom: 30px;
-    text-align: center;
-    
+      text-align: left;
+      padding: 5px;
+      width: 100%;
   }
-  
-  /* Grid layout for factors */
-  .factor_grid {
-    
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 40px;
-    width: 100%;
-  }
+}
 
-  .factor_grid .factor.left_ {
-    margin-left: 2.7rem;
-
-  }
-  
-  /* Styling for each factor */
-  .factor {
-    width: 90%;
-    height: 200px;
-    background: black;
-    padding: 20px;
-    border-radius: 8px;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    border: 1px solid rgba(255, 255, 255, 0.2);
-  }
-  
-  .factor.left_ {
-    align-self: flex-end;
-  }
-  
-  .factor.right {
-    align-self: flex-start;
-  }
-  
-  /* Factor numbering */
-  .factor_id {
-    font-style: italic;
-    font-size: 18px;
-    color: gray;
-  }
-  
-  /* Factor title */
-  .factor_title {
-    font-size: 22px;
-    font-weight: bold;
-  }
-  
-  /* Factor description */
-  .factor_description {
-    font-size: 16px;
-    color: rgba(255, 255, 255, 0.8);
-  }
-  
-  /* Responsive adjustments */
-  @media (max-width: 1024px) {
-    .factor_grid {
-      gap: 20px;
-    }
-    .factor_title {
-      font-size: 20px;
-    }
-    .factor_description {
-      font-size: 15px;
-    }
-  }
-  
-  @media (max-width: 768px) {
-    .factor_grid {
-      grid-template-columns: 1fr; 
-      margin-left: 1rem;
-    }
-
-    .factor_grid .factor.left_ {
-        margin-left: 0;
-    
-      }
-
-    .factor {
-      align-self: center !important;
-      height: 300px;
-    }
-    .factor_title {
-      font-size: 18px;
-    }
-
-    .factor_heading {
-        text-align: left;
-    }
-
-    .factor_para {
-        text-align: left;
-        padding: 5px;
-        width: 100%;
-    }
-  }
-  
-  @media (max-width: 480px) {
-    .factor_container {
+@media (max-width: 480px) {
+  .factor_container {
       padding: 30px 15px;
-    }
-    .factor {
-      padding: 15px;
-    }
-    .factor_heading {
-      font-size: 24px;
-    }
-    .factor_id {
-      font-size: 16px;
-    }
-    .factor_title {
-      font-size: 18px;
-    }
-    .factor_description {
-      font-size: 14px;
-    }
   }
-  
+  .factor {
+      padding: 15px;
+  }
+  .factor_heading {
+      font-size: 24px;
+  }
+  .factor_id {
+      text-align: left;
+      font-size: 16px;
+  }
+  .factor_title {
+      font-size: 18px;
+  }
+  .factor_description {
+      font-size: 14px;
+  }
+}
