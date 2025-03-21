@@ -9,9 +9,7 @@ import c5 from "../../assets/client5.jpeg";
 const Section1 = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
-  const clients = [
-    c1, c2, c3, c4, c5
-  ];
+  const clients = [c1, c2, c3, c4, c5];
 
   return (
     <div className='section1'>
@@ -45,15 +43,18 @@ const Section1 = () => {
             </a>
           </div>
         </div>
+        {/* <br /> */}
 
         <div className="right">
-          <form className="contact-form">
-            <h2>Contact Us</h2>
-            <input type="text" placeholder="Your Name" required />
-            <input type="email" placeholder="Your Email" required />
-            <textarea placeholder="Your Message" rows="5" required></textarea>
-            <button type="submit" className="submit-btn">Send Message</button>
-          </form>
+          {/* Embedded JotForm */}
+          <iframe 
+            title="JotForm" 
+            src="https://form.jotform.com/250773522092051" 
+            width="90%" 
+            height="500px" 
+            frameBorder="0" 
+            allowFullScreen>
+          </iframe>
         </div>
 
       </div>
