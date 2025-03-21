@@ -32,7 +32,7 @@ const Section1 = () => {
       <div className="content_section">
         <div className="left">
           <div className="overlay"></div>
-          <h1><span>Transform your business</span> with custom - <span>built management</span> tools and workflows.</h1>
+          <h1><span>Transform your business</span> with custom <span>built management</span> tools and workflows.</h1>
           <h3>Tailored solutions for all industries—manufacturing, healthcare, retail, and more.</h3>
           <h3>Unlock efficiency with custom management tools—tailored for every industry! <br /> <br /> <span>Contact us today</span></h3>
           <div className="btns">
