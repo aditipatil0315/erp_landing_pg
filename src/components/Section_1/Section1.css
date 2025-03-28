@@ -17,6 +17,36 @@
     align-items: center;
     position: relative;
   }
+
+  @keyframes blinkBrackets {
+    0%, 100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+  }
+  
+  .ai_tab {
+    position: relative;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .ai_tab::before,
+  .ai_tab::after {
+    content: "[";
+    position: absolute;
+    left: -12px;
+    animation: blinkBrackets 1s infinite;
+  }
+  
+  .ai_tab::after {
+    content: "]";
+    left: auto;
+    right: -12px;
+  }
+  
   
   .logo {
     font-weight: 500;
@@ -72,8 +102,8 @@
     z-index: 2; /* Bring left and right divs above the image */
 }
   
-  /* Overlay for dark gradient effect */
-  .left {
+
+.left {
     width: 60%;
     z-index: 2;
     display: flex;
@@ -94,8 +124,8 @@
     z-index: 1;
 } */
   
-  /* Ensuring text and buttons appear above the overlay */
-  .left h1,
+
+.left h1,
   .left h3,
   .left .btns {
     position: relative;
@@ -137,7 +167,7 @@
   .right {
 
     width: 50%;
-    background-color: transparent; /* No specific background here, form will be transparent */
+    background-color: transparent;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -267,6 +297,37 @@
     .right iframe {
       height: 550px;
   }
+  
+  .clients-grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    gap: 20px;
+    padding-bottom: 10px;
+    scrollbar-width: thin;
+    scrollbar-color: #5ae4a856 transparent;
+    justify-content: flex-start;
+    scroll-snap-type: x mandatory; /* Enables smooth scrolling */
+  }
+
+  .clients-grid::-webkit-scrollbar {
+    height: 6px;
+  }
+
+  .clients-grid::-webkit-scrollbar-thumb {
+    background-color: #5ae4a852;
+    border-radius: 10px;
+  }
+
+  .clients-grid::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  .client-logo {
+    flex: 0 0 auto;
+    scroll-snap-align: center; 
+  }
   }
   
   @media (max-width: 768px) {
@@ -363,16 +424,21 @@
       font-size: 24px;
   }
 
-    .clients-grid {
-      grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-      display: flex;
-      flex-direction: column;
-    }
 
     .clients-section {
-      background-color: black;
+      width: 100%;
+      overflow-x: hidden;
       display: flex;
       flex-direction: column;
+      align-items: center;
+    }
+  
+    .clients-grid {
+      width: 90%;
+      padding: 0 10px;
+      justify-content: flex-start;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch; 
     }
   
     .clients-section h2 {
@@ -426,13 +492,44 @@
       font-size: 14px;
     }
 
+   
+/* 
     .clients-grid {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      overflow-x: auto;
       gap: 20px;
-      align-items: center;
-      justify-items: center;
+      padding-bottom: 10px;
+      scrollbar-width: thin;
+      scrollbar-color: #5AE4A8 transparent;
+      justify-content: flex-start;
+    } */
+
+    .clients-grid {
+      width: 100%;
+      gap: 15px;
+      padding: 10px 0;
     }
+  
+    .client-logo {
+      min-width: 80px;
+    }
+  
+    .clients-grid::-webkit-scrollbar {
+      height: 6px;
+    }
+  
+    .clients-grid::-webkit-scrollbar-thumb {
+      background-color: #5ae4a855;
+      border-radius: 10px;
+    }
+  
+    .clients-grid::-webkit-scrollbar-track {
+      background: transparent;
+    }
+  
+    
 
     .right iframe {
       margin: 1rem;

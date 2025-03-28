@@ -22,7 +22,8 @@ const Section1 = () => {
           ☰
         </div>
         <div className={`links ${menuOpen ? "open" : ""}`}>
-        <a href="#">Talk with AI</a>
+        <a 
+        className='ai_tab' href="#">Talk with AI</a>
           <a href="#">Home</a>
           <a href="#about">About</a>
           <a href="#explore">Products</a>
